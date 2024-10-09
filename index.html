@@ -31,6 +31,7 @@ xhr.onreadystatechange = function() {
 
             // 检查服务器返回的状态码是否为成功
             if (response.code === 1) {
+                console.log(response);
                 // 获取 data 中的跳转 URL
                 var redirectUrl = response.data;
 
