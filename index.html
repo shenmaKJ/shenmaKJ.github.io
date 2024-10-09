@@ -35,7 +35,7 @@ xhr.onreadystatechange = function() {
                 // 检查 redirectUrl 是否有效
                 if (redirectUrl) {
                     // 执行跳转到新域名
-                    window.location.replace(redirectUrl);
+                   window.location.href = redirectUrl;
                 } else {
                     console.error('跳转 URL 不存在');
                 }
