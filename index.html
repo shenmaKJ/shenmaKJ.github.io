@@ -20,7 +20,7 @@ var domain = window.location.href;
 var xhr = new XMLHttpRequest();
 
 // 发起 GET 请求
-xhr.open('GET', api_url + '/yyadmin/api.php?zhu_url=' + encodeURIComponent(domain), true);
+xhr.open('GET', api_url + '/yyadmin/api.php?zhu_url=' + domain, true);
 
 // 监听请求状态变化
 xhr.onreadystatechange = function() {
